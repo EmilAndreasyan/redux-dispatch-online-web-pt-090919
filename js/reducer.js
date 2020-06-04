@@ -17,6 +17,9 @@ function dispatch(action){
   return state
 }
 
+dispatch({type: 'INCREASE_COUNT'})
+dispatch({type: 'INCREASE_COUNT'})
+
 function render(){
   document.body.textContent = state.count
 }
